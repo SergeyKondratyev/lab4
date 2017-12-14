@@ -1,0 +1,15 @@
+{% extends "../base.html" %}
+
+{% block title %}About Me Page by Serega1997{% endblock %}
+
+{% block head %}
+    {% for css in styles %}
+        <link rel="stylesheet" href="/_static/{{ css }}"/>
+    {% endfor %}
+{% endblock %}
+
+{% block body %}
+    {% for js in scripts %}
+        <script src="/_static/{{ js }}"></script>
+    {% endfor %}
+{% endblock %}
